@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #70c5ce; /* Цвет фона игры */
+}
+
+canvas {
+  background: url('img/BG.png') no-repeat center center; /* Фоновое изображение */
+  background-size: cover; /* Масштабирование фона */
+}
